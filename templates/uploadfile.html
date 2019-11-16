@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+{#引入css和js必要的文件#}
+<script language="JavaScript" type="text/javascript"></script>
+<script src="/static/jquery"></script>
+<script type="text/css" src="/static/button.css"></script>
+<link  type="text/css" href="/static/button.css" rel="stylesheet" >
+<div  align="center" style="background:url(/static/bg1.png);height: 1600px;width: 1440px">
+    <div style="height: 250px;text-align: center">
+        <h1 style="color: #FFFFFF;padding-top: 50px;font-size: 70px">Welcome! Dear coder!</h1>
+        <h2 style="color: #FFFFFF;margin-top: -70px;font-size: 50px">This will test your computational thinking.</h2>
+    </div>
+    <div>
+        <h1 style="color: #521B93;margin-top: 20px;font-size: 26px;background: #ffffff;width: 600px;height:45px ;border-radius: 10px; align: center">You can choose to upload your python code:</h1>
+        <form  action="/save" method=post enctype=multipart/form-data style="padding-top: 40px">
+            <div class="head-img" >
+                <img src="/static/open.png" id="my-img" style="width: 200px;height: 200px">
+                <input type="file"  name=file id="img-upload" />
+            </div>
+            <div class="head-img2" >
+                <button style="width: 120px;opacity: 0"></button>
+            </div>
+            <div class="head-img2" >
+                <img src="/static/upload.png" id="my-img2" style="width: 200px;height: 200px">
+                <input type=submit name=Upload id="img-upload2" />
+            </div>
+            <div >
+                <h1 id="shsh" style="color: #ffffff;font-size: 20px">Choose your python code!</h1>
+            </div>
+        </form>
+    </div>
+    <div style="padding-top: 30px">
+        <h1 style="color: #521B93;font-size: 26px;background: #ffffff;width: 600px;height:45px ;border-radius: 10px; align: center">Or you can enter your code below:</h1>
+    </div>
+    <form action="/text" method="post" style="padding-top: 20px">
+        <div><textarea id="text" name="text"  style="height: 300px;width: 600px;border-radius: 10px;font-size: 20px"> </textarea></div>
+        <div style="padding-top: 10px">
+            <button type="submit" name="text" style="width: 200px;height: 60px;border-radius:10px;background: #ffffff;color:#521B93;font-size: 30px ">GO!</button>
+        </div>
+
+</form>
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+    $('#my-img').click(function(){
+        $('#img-upload').click();
+    });
+});
+    $(document).ready(function(){
+    $('#my-img2').click(function(){
+        $('#img-upload2').click();
+    });
+});
+    $(document).ready(function(){
+    $('#my-img').click(function(){
+        $('#shsh').text("Choosing...")
+    });
+});
+    $(document).ready(function(){
+    $('#img-upload').on("change",function(){
+        $('#shsh').text("Choosing...")
+        var filePath=$(this).val();
+    $(".fileerrorTip").html("").hide();
+        var arr=filePath.split('\\');
+        var fileName=arr[arr.length-1];
+        $("#shsh").text("您选择的文件是："+fileName);
+    });
+});
+
+</script>

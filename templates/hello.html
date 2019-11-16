@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>CT得分</title>
+{#<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>#}
+{#<script src="https://code.highcharts.com/highcharts.js"></script>#}
+<script src="/static/jquery.min.js"></script>
+<script language="JavaScript" src="/static/highcharts.src.js"></script>
+<script language="JavaScript" src="/static/highcharts.js"></script>
+</head>nre
+<body>
+<div  align="center" style="background:url(/static/bg1.png);height: 1100px;width: 1440px">
+    <div style="height: 250px;text-align: center">
+        <h1 style="color: #FFFFFF;padding-top: 50px;font-size: 70px">Welcome! Dear coder!</h1>
+        <h2 style="color: #FFFFFF;margin-top: -70px;font-size: 50px">This will test your computational thinking.</h2>
+    </div>
+    <div style="background-color: #ffffff;height: 45px;width: 400px;border-radius: 15px">
+        <h1 style="color: #521B93">Your CT Scores Are:</h1>
+    </div>
+
+    <div style="margin-top:30px;background-color:rgb(255,255,255);width:1100px;border-radius:25px 25px 25px 25px;padding-top: 40px">
+        <div id="container" style=" width: 800px; height: 360px; margin: 0 auto" ></div>
+    </div>
+
+</div>
+
+
+<script language="JavaScript">
+$(document).ready(function() {
+   var chart = {
+      type: 'bar',
+   };
+   var title = {
+      text: '',
+       color:'#ffffff'
+   };
+   title.text="";
+   title.style={fontSize:40};
+
+   var subtitle = {
+      text: '',
+   };
+   var xAxis = {
+      categories: ['抽象', '并行', '同步', '数据使用', '控制'],
+      title: {
+         text: null
+      },
+   };
+   var yAxis = {
+      min: 0,
+       max:5,
+      title: {
+         text: '',
+         align: 'high'
+      },
+      labels: {
+         overflow: 'justify'
+      }
+   };
+   var tooltip = {
+      valueSuffix: ' 分'
+   };
+   var plotOptions = {
+      bar: {
+         dataLabels: {
+            enabled: true
+         }
+      }
+   };
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'top',
+      x: -40,
+      y: 100,
+      floating: true,
+      borderWidth: 1,
+      backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+      shadow: true
+   };
+   var credits = {
+      enabled: false
+   };
+
+   var series= [{
+         name: '您的得分是：',
+            data: {{ name }}
+        },
+   ];
+
+   var json = {};
+   json.chart = chart;
+   json.title = title;
+   json.subtitle = subtitle;
+   json.tooltip = tooltip;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;
+   json.series = series;
+   json.plotOptions = plotOptions;
+   json.legend = legend;
+   json.credits = credits;
+   $('#container').highcharts(json);
+
+});
+</script>
+</body>
+</html>
