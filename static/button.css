@@ -47,3 +47,12 @@
     color: #004974;
     text-decoration: none;
 }
+/*为了方便，把某些网页的样式也写进来了*/
+body,html{
+  height:100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}

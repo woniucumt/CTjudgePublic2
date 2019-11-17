@@ -6,6 +6,12 @@ from werkzeug.utils import secure_filename
 from calculateCT import cal
 from calculateCT2 import cal2
 from os.path import dirname, abspath
+from featureExtraction import mian
+from flask import render_template
+import os
+from flask import Flask, flash, request, redirect, url_for
+from werkzeug.utils import secure_filename
+from os.path import dirname, abspath
 # 文件上传需要
 ALLOWED_EXTENSIONS = {'txt','py'}
 UPLOAD_FOLDER=dirname(abspath(__file__))+"/upload"
@@ -17,7 +23,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return render_template('testNotInProject.html')
 @app.route('/hello2/')
 @app.route('/hello2/<name>')
 def hello(name=None):
@@ -80,6 +86,40 @@ def login():
     # print(user_info.get("text"))
     result=cal(user_info.get("text"))
     return render_template('hello.html', name=result)
+
+@app.route('/save2', methods=['GET', 'POST'])
+def upload_file2():
+    result2=[]
+    if request.method == 'POST':
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            flash('No file part')
+            return redirect(request.url)
+        file = request.files['file']
+        # if user does not select file, browser also
+        # submit an empty part without filename
+        if file.filename == '':
+            flash('No selected file')
+            return redirect(request.url)
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            print(filename)
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            # with open(os.path.join(app.config['UPLOAD_FOLDER'], filename)) as archivo:
+            #     print(archivo)
+
+        print(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        mian.start(filename)
+            # return redirect(url_for('uploaded_file',
+            #
+        #                        filename=filename))
+    # return render_template('uploadfile.html')
+        return render_template('hello.html', name=result2)
+    return render_template('uploadfileDeadibility.html')
+
+
+
+
 
 if __name__ == '__main__':
     app.run()
