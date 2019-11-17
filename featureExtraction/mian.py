@@ -25,7 +25,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 rawCountInfo = [0, 0, 0, 0, 0]
 mainList = {}
-f = open(os.path.abspath(os.path.dirname(__file__))+'pinyin.txt', 'r')
+f = open(os.path.abspath(os.path.dirname(__file__))+'/pinyin.txt', 'r')
 
 def SafeDiv(dividend, divisor):
     if divisor:
