@@ -25,7 +25,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 rawCountInfo = [0, 0, 0, 0, 0]
 mainList = {}
-f = open('/Users/woniu/show3/featureExtraction/pinyin.txt', 'r')
+f = open('/Users/woniu/show2/featureExtraction/pinyin.txt', 'r')
 
 def SafeDiv(dividend, divisor):
     if divisor:
