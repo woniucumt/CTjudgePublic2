@@ -117,7 +117,9 @@ def upload_file2():
         return render_template('hello.html', name=result2)
     return render_template('uploadfileDeadibility.html')
 
-
+@app.route('/JudgeChoose')
+def JudgeChoose():
+    return render_template('judgeChoose.html')
 
 
 

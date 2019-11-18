@@ -1,0 +1,84 @@
+<html>
+{#先用这个全局的试一下。#}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+
+<link rel="stylesheet" type="text/css" href="/static/move.css" >
+    <script language="JavaScript" type="text/javascript"></script>
+<script src="/static/jquery"></script>
+<script type="text/css" src="/static/button.css"></script>
+<link  type="text/css" href="/static/button.css" rel="stylesheet" >
+</head>
+<body style="background-color: #000000;">
+<div style="height: 100%;width: 100%;" align="center">
+    <div style="background-color: #ffffff;height: 100px;width:100%;position: absolute;margin-top: 0px" class="c-navigator--navigator" id="nav" >
+        <h1 style="color: #EF6172;font-size: 44px;padding-top: 20px;" >
+            Please Choose One Mode:
+        </h1>
+    </div>
+    <div style="display: inline-block;vertical-align:top;width:100%;">
+        <img src="../static/judgeChooseUp.png" style="width: 100%;">
+        <div align="center"style="padding-bottom: 40px;margin-top: -10%">
+            <h1 style="background-color :rgba(255,255,255,0.6);width: 50%;height: 100px;
+                                            align:center;border-radius: 20px; font-size: 66px;color:#ffffff">READIBILITY JUDGE</h1>
+
+        </div>
+
+    </div>
+    <div style="display: inline-block;vertical-align:top;width:100%;">
+        <img src="../static/judgeChooseDown.png" style="width: 100%;margin-top: -5px">
+
+    </div>
+    <div align="center"style="margin-top: -30%">
+            <h1 style="background-color :rgba(255,255,255,0.6);width: 50%;height: 100px;
+                                            align:center;border-radius: 20px; font-size: 46px;color:#ffffff">COMPUTATIONAL THINKING</h1>
+        </div>
+
+
+
+
+
+</div>
+<script language="javascript">
+$(document).ready(function () {
+
+});
+{#一个个跟随条#}
+$(function(){
+    var isToTop = false;//设置一个标记，来记录导航栏是否位于顶部
+    $(window).scroll(function(){
+        var scrollTop = $(this).scrollTop();//获取滚动条
+         if(scrollTop>0){//当滚动条的高度大于80px,并且导航栏不是位于顶部的时候，通过jq给header添加css样式使其固定定位到浏览器可视窗口的顶部
+             $(".c-navigator--navigator").css({
+                 "position":"fixed",
+                 "top":"0",
+{#                 上面控制与顶部的贴合#}
+                 "width":"100%",
+{#                 最好写实际的长度，因为会根据窗口动弹#}
+                "background":"#ffffff",
+                 "text-align":"center",
+                 "align-text":"center",
+                 "align":"center"
+             });
+         }
+//当滚动条的高度小于80px,并且导航栏是位于顶部的时候，通过jq给header添加css样式使其回到原始的位置。
+{#        下面这个是，回滚到啥时候，可以放下去#}
+         if(scrollTop<0){
+                 $(".c-navigator--navigator").css({
+                 "position":"absolute",
+                 "top":"190px",
+                     "background":"#ffffff",
+                     "width":"1920px",
+                     "align":"center"
+
+                 });
+         }
+    });
+});
+{#第二个跟随条#}
+</script>
+
+</body>
+
+</html>
