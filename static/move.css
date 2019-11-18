@@ -57,3 +57,22 @@ body,html{
   margin: 0;
 }
 
+
+.growth
+{
+width:100px;
+height:300px;
+background:blue;
+transition:width 2s;
+-moz-transition:width 2s; /* Firefox 4 */
+-webkit-transition:width 2s; /* Safari and Chrome */
+-o-transition:width 2s; /* Opera */
+}
+
+.growth:hover
+{
+    width:300px;
+    background:blue;
+}
+
+

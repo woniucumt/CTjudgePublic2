@@ -1,0 +1,139 @@
+<html>
+{#先用这个全局的试一下。#}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <style>
+    body{
+      margin: 0px;
+      padding: 0px;
+    }
+    .redb{
+        width:33%;
+        height:20%;
+        background-color: rgba(255,255,255,0.8);
+        position:relative;
+        left:33% ;
+        top: 40%;
+        animation:myfirst 1s;
+        -moz-animation:myfirst 1s; /* Firefox */
+        -webkit-animation:myfirst 1s; /* Safari and Chrome */
+        -o-animation:myfirst 1s; /* Opera */
+    }
+    @keyframes myfirst
+        {
+        0%   {background:rgba(0,0,0,0.9); left:33%; top:-200px;}
+
+        100% {background:rgba(255,255,255,0.8); left:33%; top:40%;}
+{#        这个事件注意和上面的初始事件要一一对应#}
+        }
+    .redb2{
+        width:40%;
+        height:20%;
+        background-color: rgba(0,0,0,0.9);
+        position:relative;
+        left:66% ;
+        top: 40%;
+        animation:myfirst2 1s;
+        -moz-animation:myfirst2 1s; /* Firefox */
+        -webkit-animation:myfirst2 1s; /* Safari and Chrome */
+        -o-animation:myfirst2 1s; /* Opera */
+    }
+    @keyframes myfirst2
+        {
+        0%   {background:rgba(255,255,255,0.8); left:-50%; top:40%;}
+
+        100% {background:rgba(0,0,0,0.9); left:66%; top:40%;}
+{#        这个事件注意和上面的初始事件要一一对应#}
+        }
+        .redb3{
+        width:40%;
+        height:20%;
+        background-color: rgba(0,0,0,0.9);
+        position:relative;
+        right:66% ;
+        top: 40%;
+        animation:myfirst3 1s;
+        -moz-animation:myfirst3 1s; /* Firefox */
+        -webkit-animation:myfirst3 1s; /* Safari and Chrome */
+        -o-animation:myfirst3 1s; /* Opera */
+    }
+    @keyframes myfirst3
+        {
+        0%   {background:rgba(255,255,255,0.8); right:-50%; top:40%;}
+
+        100% {background:rgba(0,0,0,0.9); right:66%; top:40%;}
+{#        这个事件注意和上面的初始事件要一一对应#}
+        }
+    </style>
+<link rel="stylesheet" type="text/css" href="/static/move.css" >
+</head>
+<body style="background-color: #000000;">
+<div style="height: 100%;width: 100%;" >
+    <div style="display: inline-block;vertical-align:top;width:50%; float: left;">
+        <img src="../static/left2.png" style="width: 100%;">
+
+    </div>
+
+    <div style="display: inline-block;vertical-align:top;width:50%;float: right ;" >
+        <img src="../static/right2.png" style="width: 100%">
+    </div>
+{#    跟随是真的好难啊#}
+    <div class="redb" style="position: fixed"align="center">
+        <h1 style="width: 100%;font-size: 50px">WONIU`S WONDERLAND</h1>
+    </div>
+    <div class="redb2" style="position: fixed"align="center">
+        <h1 style="width: 100%;font-size: 50px;color: #ffffff;text-align: left;margin-top: 5%">POHTOGRAPHER</h1>
+    </div>
+    <div class="redb3" style="position: fixed;margin: 0 auto;">
+        <h1 style="width: 100%;font-size: 50px;color: #ffffff;text-align: right;margin-top: 5%" >DESIGNER</h1>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<script>
+    window.onload = function(){
+      var opDiv = document.getElementById("opbtn");
+      opDiv.onmouseover = function(){
+        startMove(100);
+      }
+      opDiv.onmouseout = function(){
+        startMove(40);
+      }
+    }
+    var timer = null;
+    var alpha = 40;
+    var speed = 0;
+    function startMove(opTarget){
+      clearInterval(timer);
+      var opDiv = document.getElementById("opbtn");
+      timer = setInterval(function(){
+        if(alpha<opTarget){
+          speed = 40;
+        }
+        else if(alpha>opTarget){
+          speed = -40;
+        }
+        if(alpha==opTarget){
+          clearInterval(timer);
+        }
+        else{
+          alpha += speed;
+          opDiv.style.opacity = alpha/100;
+          opDiv.style.filter = 'alpha(opacity='+alpha+')';
+        }
+      },100);
+    }
+    </script>
+
+</body>
+
+</html>
