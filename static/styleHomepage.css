@@ -1,0 +1,133 @@
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Reset----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+a{color: #4C4C4C;text-decoration: none;}
+a:hover {opacity: 0.9; text-decoration: none;}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------Item-Effect---------------------------------- */
+/* ---------------------------------------------------------------------------- */	
+.item-container {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.item-container img {
+}
+.item-container .title{
+	position:absolute;left:0;top:50%;right:0;padding:0 10px;-webkit-transition:0.3s ease;transition:0.3s ease;-ms-transform:translate(0, -50%);-webkit-transform:translate(0, -50%);transform:translate(0, -50%)
+}
+.item-container .title h2{
+	color:#fff;padding:0;font-size:24px;line-height:30px
+}
+.item-container .item-caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	background: none;
+
+	position: absolute;
+	-ms-transform:scale(2);-webkit-transform:scale(2);transform:scale(2);
+	-webkit-transition:0.3s ease;transition:0.3s ease;
+}
+.item-caption:hover{opacity: 0.9;}
+
+
+.item-caption:before {border-bottom: none;border-top: none;left: 2em;right: 2em;}
+.item-caption:after {border-left: none;border-right: none;bottom: 2em;top: 2em;}
+.item-caption:hover:after,
+.item-caption:hover:before {-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);opacity: 1;}
+
+.item-caption-inner {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.item-caption-inner1 {
+	overflow: auto;
+    padding: 15px;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.item-container .item-caption h4, .item-container .item-caption span{
+	display: block;
+	text-align: center;
+	color: #fff;
+	display: none;
+}
+.item-container .item-caption h4{
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-bottom : 0;
+}
+.item-container .item-caption span{
+	font-size: 14px;
+	font-weight: 500;
+}
+.item-container:hover .item-caption{
+	-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1);opacity:1
+}
+.item-container:hover .item-caption.green{
+	background: rgba(8,14,67,0.8);
+}
+.item-container:hover .item-caption.yellow{
+	background:#F3D05D;
+}
+.item-container:hover .item-caption.orange{
+	background:#DC9E54;
+}
+.item-container:hover .item-caption.purple{
+	background:#835173;
+}
+.item-container:hover .item-caption.blue{
+	background:#3582A6;
+}
+.item-container:hover .item-caption.black{
+	background:#252525;
+}
+.item-container:hover .item-caption h4, .item-container:hover .item-caption span{
+	display: block;
+}
+.item-container:hover .title{
+	-ms-transform:translate(0, -100%);-webkit-transform:translate(0, -100%);transform:translate(0, -100%);opacity:0
+}
+
