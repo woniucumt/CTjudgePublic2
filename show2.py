@@ -23,9 +23,13 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
-
+# root is homepage.
 @app.route('/')
 def hello_world():
+    return render_template('homepageAdaptative.html')
+
+@app.route('/personPage')
+def personPage():
     return render_template('personPage.html')
 @app.route('/hello2/')
 @app.route('/hello2/<name>')
@@ -37,7 +41,7 @@ def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-@app.route('/save', methods=['GET', 'POST'])
+@app.route('/ctjudge', methods=['GET', 'POST'])
 def upload_file():
     result2=[]
     if request.method == 'POST':
@@ -92,7 +96,7 @@ def login():
     result=cal(user_info.get("text"))
     return render_template('ctResult.html', name=result)
 
-@app.route('/save2', methods=['GET', 'POST'])
+@app.route('/readjudge', methods=['GET', 'POST'])
 def upload_file2():
     result2=[]
     resultAttr=[]
@@ -134,7 +138,21 @@ def JudgeChoose():
 @app.route('/homepage')
 def homepage():
     return render_template('homepageAdaptative.html')
-
+@app.route('/personalPhoto')
+def personalPhoto():
+    return render_template('index.html')
+@app.route('/personalPhotoGD')
+def personalPhotoGD():
+    return render_template('index2.html')
+@app.route('/personalPhotoInbupt')
+def personalPhotoInbupt():
+    return render_template('index3.html')
+@app.route('/personalPhotoSpring')
+def personalPhotoSpring():
+    return render_template('index4.html')
+@app.route('/personalPhotoFC')
+def personalPhotoFc():
+    return render_template('index5.html')
 
 if __name__ == '__main__':
     app.run()
