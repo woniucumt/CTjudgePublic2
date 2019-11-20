@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5bfa1b2-e265-4733-a05c-13b24533d885" name="Default" comment="11.17">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_109.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_11.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_111.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_12.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_13.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_156.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_27.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_29.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_6.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_7.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_8.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/1208_9.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/snippet013.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/featureExtraction/mian.py" afterPath="$PROJECT_DIR$/featureExtraction/mian.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readabilityJudge/reababilityJudge.py" afterPath="$PROJECT_DIR$/readabilityJudge/reababilityJudge.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show2.py" afterPath="$PROJECT_DIR$/show2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/judgeChoose.html" afterPath="$PROJECT_DIR$/templates/judgeChoose.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/uploadfileDeadibility.html" afterPath="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -216,7 +195,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadfileCT.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uploadfileCT.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
@@ -242,6 +221,28 @@
                 <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#1;n#div#3;n#form#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#2;n#div#3;n#form#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reababilityJudge.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readabilityJudge/reababilityJudge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -324,12 +325,12 @@
         <option value="$PROJECT_DIR$/templates/judgeChoose.html" />
         <option value="$PROJECT_DIR$/templates/hello.html" />
         <option value="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
-        <option value="$PROJECT_DIR$/readabilityJudge/reababilityJudge.py" />
         <option value="$PROJECT_DIR$/show2.py" />
         <option value="$PROJECT_DIR$/templates/ctResult.html" />
         <option value="$PROJECT_DIR$/featureExtraction/mian.py" />
         <option value="$PROJECT_DIR$/templates/readabilityResult.html" />
         <option value="$PROJECT_DIR$/templates/uploadfileCT.html" />
+        <option value="$PROJECT_DIR$/readabilityJudge/reababilityJudge.py" />
       </list>
     </option>
   </component>
@@ -508,14 +509,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25154132" sideWeight="0.5028818" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24290998" sideWeight="0.49711815" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24290998" sideWeight="0.49711815" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2629683" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -599,14 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,16 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readabilityJudge/reababilityJudge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/featureExtraction/mian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7417">
@@ -1144,6 +1126,24 @@
             <element signature="n#style#0;n#h1#1;n#div#3;n#form#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#2;n#div#3;n#form#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readabilityJudge/reababilityJudge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
