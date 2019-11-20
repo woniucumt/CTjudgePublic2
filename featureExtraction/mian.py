@@ -93,7 +93,7 @@ def CountFileLines(filePath, pinYinLib, isRawReport=True, isShortName=False):
     lineCountInfo = [0]*5       #[代码总行数, 代码行数, 注释行数, 空白行数, 注释率]
     #真正打开的是在这里
     print("open卡住了")
-    with open(os.path.join('/Users/woniu/show3/upload/', filePath[0]), 'r', encoding='UTF-8') as file:
+    with open(os.path.join('/Users/woniu/show2/upload/', filePath[0]), 'r', encoding='UTF-8') as file:
         token = []
         lineLength = []
         astAnalysis.astAnalysis(file)
@@ -225,6 +225,8 @@ def CountFileLines(filePath, pinYinLib, isRawReport=True, isShortName=False):
     #到这一步算是可以了。
     print(writeCSV.attr)
     print(mainList)
+    print(mainListLine)
+    return mainListLine
 
 
 def ReportCounterInfo(isRawReport=True, stream=sys.stdout):
@@ -284,7 +286,9 @@ def CountFile(file, pinYinLib, isRawReport=True, isShortName=False):
     #因为只有一个文件，直接就这个就行了。
     print("00000000000000000")
     print(file)
-    CountFileLines(file, pinYinLib, isRawReport, isShortName, )
+    attr=[]
+    attr=CountFileLines(file, pinYinLib, isRawReport, isShortName, )
+    return attr
 
     # for file in fileList:
     #     CountFileLines(file, pinYinLib, isRawReport, isShortName, )
@@ -318,7 +322,9 @@ def LineCounter(pinYinLib, isKeep=False, isRawReport=True, isShortName=False, ta
     print(fileList, dirList)
     print("linecounter")
     print(targetList)
-    CountFile(targetList, pinYinLib, isRawReport, isShortName)
+    resultAttr=[]
+    resultAttr=CountFile(targetList, pinYinLib, isRawReport, isShortName)
+    return resultAttr
 
     # if fileList != []:
     #     CountFile(fileList, pinYinLib, isRawReport, isShortName)
@@ -335,42 +341,48 @@ def main(pinYinLib,target2):
     stream = sys.stdout if not out else open(out, 'w')
     SetSortArg(sort)
     #如果使用target上面那句话会覆盖掉
-    print(target2)
+    # print(target2)
     cacheUsed = cacheFile.shouldUseCache(keep, detail, basename, cache, target)
-    print(cacheUsed)
-    print(target)
+    # print(cacheUsed)
+    # print(target)
     target=target2
-    print(target)
+    resultAttr=[]
+    # print(target)
 
     if cacheUsed:
         try:
             (rawCountInfo, detailCountInfo) = cacheFile.CounterLoad()
         except (EOFError, ValueError) as e: #不太可能出现
             print( 'Unexpected Cache Corruption(%s), Try Counting Directly.'%e,file = sys.stderr)
-            LineCounter(pinYinLib, keep, not detail, basename, target)
+            resultAttr=LineCounter(pinYinLib, keep, not detail, basename, target)
     else:
-       LineCounter(pinYinLib, keep, not detail, basename, target)
+        resultAttr=LineCounter(pinYinLib, keep, not detail, basename, target)
+    return resultAttr
     ReportCounterInfo(not detail, stream)
     # cacheFile.CounterDump((keep, detail, basename, target))
 def start(target):
-    print("从这里进")
+    print("从这里进start")
     pinyin_Lib = []
     for line in f:
         pinyin_Lib.append(str(line.strip()))
 
     from time import clock
     # startTime = clock()
-    print(target)
+    # print(target)
     targetList=[]
     targetList.append(str(target))
-    print(targetList)
-    main(pinyin_Lib,targetList)
+    resultAttr=[]
+    # print(targetList)
+    resultAttr=main(pinyin_Lib,targetList)
+    print("rerererere")
+    print(resultAttr)
 
     # endTime = clock()
     # print('Time Elasped: %.2f sec.' %(endTime-startTime),file = sys.stderr)
     # print(pinYinCheck.pinyin_or_word("clock",pinyin_Lib))
-    f.close()
-    writeCSV.writeCSV(mainList)
+    # f.close()
+    return resultAttr
+    # writeCSV.writeCSV(mainList)
 
 
 #其实是从这里开始的。之前顺序结构是从上往下。其实这个也是自上往下。

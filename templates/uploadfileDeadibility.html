@@ -17,7 +17,7 @@
             </h1>
         </div>
     </div>
- {#       三个横幅的位置#}
+ {#       2个横幅的位置#}
     <div style="height: 500px;width: 100%;">
 {#        第一行#}
         <div style="height: 240px;width: 1920px ">
@@ -83,7 +83,7 @@
 {#    上传文件#}
     <div style="padding-top: 45px">
         <h1 style="color: #EF6172;margin-top: 20px;font-size: 26px;background: #ffffff;width: 900px;height:45px ;border-radius: 25px; align: center">You can choose to upload your python code:</h1>
-        <form  action="/save" method=post enctype=multipart/form-data style="padding-top: 40px">
+        <form  action="/save2" method=post enctype=multipart/form-data style="padding-top: 40px">
             <div class="head-img" >
                 <img src="/static/readabilityFile.png" id="my-img" style="width: 200px;height: 200px">
                 <input type="file"  name=file id="img-upload" />
@@ -103,7 +103,7 @@
     <div style="padding-top: 30px">
         <h1 style="color: #EF6172;font-size: 26px;background: #ffffff;width: 900px;height:45px ;border-radius: 25px; align: center">Or you can enter your code below:</h1>
     </div>
-    <form action="/text" method="post" style="padding-top: 20px;">
+    <form action="/text2" method="post" style="padding-top: 20px;">
         <div><textarea id="text" name="text"  style="height: 300px;width: 900px;border-radius: 15px;font-size: 20px;margin-top: 20px"> </textarea></div>
         <div style="padding-top: 10px">
             <button type="submit" name="text" style="width: 200px;height: 60px;border-radius:20px;background: #ffffff;color:#EF6172;font-size: 30px;margin-top: 20px ">GO!</button>

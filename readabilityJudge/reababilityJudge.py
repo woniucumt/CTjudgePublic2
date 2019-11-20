@@ -9,10 +9,16 @@ X_test=[[ 29,         70,           3,           5,          34,
 X_test=[[119,	4,	25,	23,	12,	0,	36,	90,
 14,	11,	6,	5,	3,	6,	5,	2,
 1.8,	20,	193.2092968,	8.571428571]]
-model = XGBClassifier()
-test_model = xgb.Booster(model_file='xgb.model')
-print (X_test)
-X_test = xgb.DMatrix(X_test)
-print(test_model.predict(X_test))
-print ("test_model : ")
-print (str(test_model))
+
+
+def readabilityJudgeFunc(X_test):
+    # 下面的暂时隐掉，因为模型和输入的项目不匹配。
+    # model = XGBClassifier()
+    # test_model = xgb.Booster(model_file='xgb.model')
+    # print(X_test)
+    # X_test = xgb.DMatrix(X_test)
+    # print(test_model.predict(X_test))
+    # print("test_model : ")
+    # print(str(test_model))
+    # return str(test_model)
+    return str(37.15)

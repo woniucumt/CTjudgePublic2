@@ -12,6 +12,9 @@ import os
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
 from os.path import dirname, abspath
+from readabilityJudge import reababilityJudge
+import xgboost as xgb
+from xgboost import XGBClassifier
 # 文件上传需要
 ALLOWED_EXTENSIONS = {'txt','py'}
 UPLOAD_FOLDER=dirname(abspath(__file__))+"/upload"
@@ -27,7 +30,7 @@ def hello_world():
 @app.route('/hello2/')
 @app.route('/hello2/<name>')
 def hello(name=None):
-    return render_template('hello.html', name=[3, 2, 2, 3, 3])
+    return render_template('ctResult.html', name=[3, 2, 2, 3, 3])
 
 # 文件上传
 def allowed_file(filename):
@@ -61,8 +64,10 @@ def upload_file():
             #
         #                        filename=filename))
     # return render_template('uploadfile.html')
-        return render_template('hello.html', name=result2)
-    return render_template('uploadfile.html')
+    #     删除已上传的文件，不然服务器东西太多了。
+        os.remove(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        return render_template('ctResult.html', name=result2)
+    return render_template('uploadfileCT.html')
 
 
 @app.route("/text", methods=("GET", "POST"))
@@ -85,11 +90,12 @@ def login():
     print(request.args.to_dict())
     # print(user_info.get("text"))
     result=cal(user_info.get("text"))
-    return render_template('hello.html', name=result)
+    return render_template('ctResult.html', name=result)
 
 @app.route('/save2', methods=['GET', 'POST'])
 def upload_file2():
     result2=[]
+    resultAttr=[]
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -109,18 +115,25 @@ def upload_file2():
             #     print(archivo)
 
         print(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-        mian.start(filename)
+        resultAttr=mian.start(filename)
+        print("safdasfsad")
+        print (resultAttr)
+        print("zai show2limian")
+        print(reababilityJudge.readabilityJudgeFunc(resultAttr))
+
             # return redirect(url_for('uploaded_file',
             #
         #                        filename=filename))
     # return render_template('uploadfile.html')
-        return render_template('hello.html', name=result2)
+        return render_template('readabilityResult.html', name=result2)
     return render_template('uploadfileDeadibility.html')
 
 @app.route('/JudgeChoose')
 def JudgeChoose():
     return render_template('judgeChoose.html')
-
+@app.route('/homepage')
+def homepage():
+    return render_template('homepageAdaptative.html')
 
 
 if __name__ == '__main__':
