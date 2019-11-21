@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5bfa1b2-e265-4733-a05c-13b24533d885" name="Default" comment="11.17">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/adesigner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/astudent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/team-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/team-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/team-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/team-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/wxb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/xx.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/24.png" afterPath="$PROJECT_DIR$/static/images/24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/55.png" afterPath="$PROJECT_DIR$/static/images/55.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/readabilityJudge.png" afterPath="$PROJECT_DIR$/static/readabilityJudge.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ctResult.html" afterPath="$PROJECT_DIR$/templates/ctResult.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/homepageAdaptative.html" afterPath="$PROJECT_DIR$/templates/homepageAdaptative.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index2.html" afterPath="$PROJECT_DIR$/templates/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index3.html" afterPath="$PROJECT_DIR$/templates/index3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index4.html" afterPath="$PROJECT_DIR$/templates/index4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index5.html" afterPath="$PROJECT_DIR$/templates/index5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/personPage.html" afterPath="$PROJECT_DIR$/templates/personPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/uploadfile.html" afterPath="$PROJECT_DIR$/templates/uploadfile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/uploadfileCT.html" afterPath="$PROJECT_DIR$/templates/uploadfileCT.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,99 +39,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/show2$show2.coverage" NAME="show2 Coverage Results" MODIFIED="1574272808826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/show2$show2.coverage" NAME="show2 Coverage Results" MODIFIED="1574317679428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="show2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/show2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadfileDeadibility.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/uploadfileDeadibility.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#285#473#0#HTML" expanded="true" />
+                <element signature="e#484#506#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="91" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="329">
+              <caret line="58" column="66" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepageAdaptative.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/homepageAdaptative.html">
+      <file leaf-file-name="uploadfileCT.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="70" column="131" lean-forward="false" selection-start-line="70" selection-start-column="131" selection-end-line="70" selection-end-column="131" />
+            <state relative-caret-position="493">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#2;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#3;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#4;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <marker date="1574272808402" expanded="false" signature="1619:1698" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="1797:1817" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="1981:2013" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2172:2293" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2306:2316" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2367:2470" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2514:2593" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2658:2678" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2753:2796" ph="..." />
-                <marker date="1574272808402" expanded="false" signature="2842:2874" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/homepage.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="58" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleHomepage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/styleHomepage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zerogrid.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/zerogrid.css">
+      <file leaf-file-name="index3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/personPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="58" column="68" lean-forward="false" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -118,18 +113,42 @@
       <file leaf-file-name="index4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="162" column="62" lean-forward="false" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
+            <state relative-caret-position="282">
+              <caret line="58" column="68" lean-forward="false" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="button.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/button.css">
+      <file leaf-file-name="personPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/personPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1392">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="78" column="109" lean-forward="false" selection-start-line="78" selection-start-column="109" selection-end-line="78" selection-end-column="109" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ctResult.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ctResult.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="18" column="133" lean-forward="false" selection-start-line="18" selection-start-column="133" selection-end-line="18" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -165,6 +184,8 @@
       <find>rere</find>
       <find>您</find>
       <find>370</find>
+      <find>ctbg</find>
+      <find>left2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,33 +201,33 @@
         <option value="$PROJECT_DIR$/templates/button.js" />
         <option value="$PROJECT_DIR$/static/button.js" />
         <option value="$USER_HOME$/Desktop/你就要靠这个毕业鸭/第二个研究点/最近论文的实验，离开实验室/新的论文/xgboost实验/data/data/try617_3.py" />
-        <option value="$PROJECT_DIR$/templates/uploadfile.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/testNotInProject.html" />
         <option value="$PROJECT_DIR$/templates/homepage.html" />
         <option value="$PROJECT_DIR$/static/move.css" />
         <option value="$PROJECT_DIR$/templates/ctJudgePage.html" />
         <option value="$PROJECT_DIR$/templates/hello.html" />
-        <option value="$PROJECT_DIR$/templates/ctResult.html" />
         <option value="$PROJECT_DIR$/featureExtraction/mian.py" />
         <option value="$PROJECT_DIR$/templates/readabilityResult.html" />
         <option value="$PROJECT_DIR$/readabilityJudge/reababilityJudge.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/templates/uploadfileCT.html" />
-        <option value="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
         <option value="$PROJECT_DIR$/templates/judgeChoose.html" />
-        <option value="$PROJECT_DIR$/templates/personPage.html" />
         <option value="$PROJECT_DIR$/templates/personalGallery/index.html" />
         <option value="$PROJECT_DIR$/static/button.css" />
+        <option value="$PROJECT_DIR$/static/styleHomepage.css" />
+        <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/show2.py" />
+        <option value="$PROJECT_DIR$/templates/homepageAdaptative.html" />
+        <option value="$PROJECT_DIR$/templates/uploadfile.html" />
+        <option value="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
+        <option value="$PROJECT_DIR$/templates/uploadfileCT.html" />
+        <option value="$PROJECT_DIR$/templates/ctResult.html" />
+        <option value="$PROJECT_DIR$/templates/personPage.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/index2.html" />
         <option value="$PROJECT_DIR$/templates/index3.html" />
         <option value="$PROJECT_DIR$/templates/index4.html" />
         <option value="$PROJECT_DIR$/templates/index5.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/style.css" />
-        <option value="$PROJECT_DIR$/static/styleHomepage.css" />
-        <option value="$PROJECT_DIR$/templates/homepageAdaptative.html" />
       </list>
     </option>
   </component>
@@ -268,6 +289,11 @@
               <item name="show2" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="show2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="show2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,7 +306,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file:///Users/woniu/show2/static/style.css&#10;home&#9;FILE&#9;file:///Users/woniu/show2/templates/homepage.html&#10;per&#9;FILE&#9;file:///Users/woniu/show2/templates/personPage.html&#10;up&#9;FILE&#9;file:///Users/woniu/show2/templates/uploadfileDeadibility.html&#10;choos&#9;FILE&#9;file:///Users/woniu/show2/templates/judgeChoose.html&#10;ct&#9;FILE&#9;file:///Users/woniu/show2/templates/ctResult.html&#10;s&#9;FILE&#9;file:///Users/woniu/show2/show2.py&#10;hello&#9;FILE&#9;file:///Users/woniu/show2/templates/hello.html&#10;sho&#9;FILE&#9;file:///Users/woniu/show2/show2.py&#10;upl&#9;FILE&#9;file:///Users/woniu/show2/static/readabilityUpload.png" />
+    <property name="SearchEverywhereHistoryKey" value="sh&#9;FILE&#9;file:///Users/woniu/show2/show2.py&#10;inde&#9;FILE&#9;file:///Users/woniu/show2/templates/index.html&#10;sho&#9;FILE&#9;file:///Users/woniu/show2/show2.py&#10;shoe&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///Users/woniu/show2/static/style.css&#10;home&#9;FILE&#9;file:///Users/woniu/show2/templates/homepage.html&#10;per&#9;FILE&#9;file:///Users/woniu/show2/templates/personPage.html&#10;up&#9;FILE&#9;file:///Users/woniu/show2/templates/uploadfileDeadibility.html&#10;choos&#9;FILE&#9;file:///Users/woniu/show2/templates/judgeChoose.html&#10;ct&#9;FILE&#9;file:///Users/woniu/show2/templates/ctResult.html&#10;s&#9;FILE&#9;file:///Users/woniu/show2/show2.py&#10;hello&#9;FILE&#9;file:///Users/woniu/show2/templates/hello.html&#10;upl&#9;FILE&#9;file:///Users/woniu/show2/static/readabilityUpload.png" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,6 +318,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -374,11 +401,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24290998" sideWeight="0.5057637" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25030828" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23551172" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26368877" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26368877" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107275" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -399,12 +426,12 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25030828" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23551172" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26368877" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107275" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -430,146 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/judgeChooseDown1.png" />
-    <entry file="file://$PROJECT_DIR$/static/judgeChooseUp1.png" />
-    <entry file="file://$PROJECT_DIR$/static/judgeChooseDown.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/judgeChooseUp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/bg1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/uploadfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="65" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/readabilityUpload.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hello.html" />
-    <entry file="file://$PROJECT_DIR$/static/highcharts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="73" column="401" lean-forward="false" selection-start-line="73" selection-start-column="400" selection-end-line="73" selection-end-column="401" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/highcharts.src.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11939">
-          <caret line="2554" column="19" lean-forward="false" selection-start-line="2554" selection-start-column="19" selection-end-line="2554" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureExtraction/mian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7417">
-          <caret line="382" column="15" lean-forward="false" selection-start-line="382" selection-start-column="6" selection-end-line="382" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/1208_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/1208_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculateCT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3609">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ctResult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="264" column="9" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="264" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readabilityJudge/reababilityJudge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="136" column="16" lean-forward="false" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/uploadfileDeadibility.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/readabilityResult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/judgeChoose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalGallery/css/menu.css" />
-    <entry file="file://$USER_HOME$/anaconda/anaconda3/lib/python3.7/site-packages/flask/templating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalGallery/index.html" />
-    <entry file="file://$PROJECT_DIR$/templates/personalGallery/css/menu.css" />
-    <entry file="file://$PROJECT_DIR$/templates/personalGallery/css/zerogrid.css" />
-    <entry file="file://$PROJECT_DIR$/templates/personalGallery/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/static/images/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/personalGallery/index.html" />
     <entry file="file://$PROJECT_DIR$/static/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -592,50 +479,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lightbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/show2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2976">
-          <caret line="140" column="26" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3432">
-          <caret line="143" column="62" lean-forward="false" selection-start-line="143" selection-start-column="62" selection-end-line="143" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3768">
-          <caret line="157" column="40" lean-forward="false" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/button.css">
@@ -646,49 +492,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/zerogrid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/personPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="91" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="162" column="62" lean-forward="false" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/adesigner.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="60" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="303" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/homepage.html">
@@ -696,7 +502,7 @@
         <state relative-caret-position="204">
           <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,10 +530,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda/anaconda3/lib/python3.7/site-packages/spyder/plugins/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="130" column="6" lean-forward="false" selection-start-line="130" selection-start-column="6" selection-end-line="130" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/zerogrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="289" column="32" lean-forward="false" selection-start-line="289" selection-start-column="32" selection-end-line="289" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/homepageAdaptative.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="70" column="131" lean-forward="false" selection-start-line="70" selection-start-column="131" selection-end-line="70" selection-end-column="131" />
+        <state relative-caret-position="186">
+          <caret line="88" column="59" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -741,26 +571,267 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1574272808402" expanded="false" signature="1619:1698" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="1797:1817" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="1981:2013" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2172:2293" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2306:2316" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2367:2470" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2514:2593" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2658:2678" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2753:2796" ph="..." />
-            <marker date="1574272808402" expanded="false" signature="2842:2874" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="1619:1698" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="1797:1817" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="1981:2013" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2172:2293" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2306:2316" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2367:2470" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2514:2593" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2658:2678" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2753:2796" ph="..." />
+            <marker date="1574311296439" expanded="false" signature="2842:2874" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/blog-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/next.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/prev.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/team-1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/judgeChooseDown.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/judgeChooseUp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lightbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/left2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/readabilityFile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/right2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/wxb.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/xx.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/as1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/as2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bg1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploadfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/open.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/readabilityJudge.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ctBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/highcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/readabilityUpload.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploadfileDeadibility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#285#473#0#HTML" expanded="true" />
+            <element signature="e#484#506#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ctResult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="133" lean-forward="false" selection-start-line="18" selection-start-column="133" selection-end-line="18" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/personPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="78" column="109" lean-forward="false" selection-start-line="78" selection-start-column="109" selection-end-line="78" selection-end-column="109" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="58" column="66" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="58" column="68" lean-forward="false" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="58" column="68" lean-forward="false" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
