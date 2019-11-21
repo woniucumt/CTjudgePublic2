@@ -21,7 +21,7 @@ UPLOAD_FOLDER=dirname(abspath(__file__))+"/upload"
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
+app.config["SECRET_KEY"] = "hskghsaklg"
 
 # root is homepage.
 @app.route('/')
@@ -44,23 +44,26 @@ def allowed_file(filename):
 @app.route('/ctjudge', methods=['GET', 'POST'])
 def upload_file():
     result2=[]
+    filename="sample.py"
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
-            flash('No file part')
-            return redirect(request.url)
+            return render_template('uploadfileCT.html')
         file = request.files['file']
         # if user does not select file, browser also
         # submit an empty part without filename
         if file.filename == '':
-            flash('No selected file')
-            return redirect(request.url)
+            return render_template('uploadfileCT.html')
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             print(filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             # with open(os.path.join(app.config['UPLOAD_FOLDER'], filename)) as archivo:
             #     print(archivo)
+        else:
+            print("not a python file!")
+            return render_template('uploadfileCT.html')
+
 
         print(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         result2=cal2(filename)
