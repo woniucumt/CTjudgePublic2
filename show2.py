@@ -66,7 +66,7 @@ def upload_file():
 
 
         print(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-        result2=cal2(filename)
+        result2=cal2(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             # return redirect(url_for('uploaded_file',
             #
         #                        filename=filename))

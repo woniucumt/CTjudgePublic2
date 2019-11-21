@@ -16,7 +16,7 @@ NUM = 1
 
 def cal2(name):
     sname = name
-    with open("/Users/woniu/show2/upload/"+sname) as archivo:
+    with open(sname) as archivo:
         Abstraction = [0]
         Parallelism = [0]
         FlowControl = [1]
