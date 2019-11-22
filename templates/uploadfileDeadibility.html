@@ -5,7 +5,7 @@
 <script src="/static/jquery"></script>
 <script type="text/css" src="/static/button.css"></script>
 <link  type="text/css" href="/static/button.css" rel="stylesheet" >
-<div  align="center" style="background:url(/static/readabilityJudge.png);height: 3000px;width: 1920px;min-width: 1920px;max-width: 1920px;background-repeat:no-repeat;background-size:100% 100%;margin-top: 0px ">
+<div  align="center" style="background:url(https://woniubupt.oss-us-east-1.aliyuncs.com/%E8%83%8C%E6%99%AF%E7%85%A7%E7%89%87/readabilityJudge.png);width: 100%;min-width: 1440px;max-width: 2080px;margin-top: 0px ">
     <div style="height: 340px;" >
         <div align="center"style="padding-top: 70px;margin-bottom: 20px">
             <h1 style="background-color :rgba(255,255,255,0.3);width: 500px;height: 100px;
@@ -18,9 +18,9 @@
         </div>
     </div>
  {#       2个横幅的位置#}
-    <div style="height: 500px;width: 100%;">
+    <div style="height: 450px;width: 100%;">
 {#        第一行#}
-        <div style="height: 240px;width: 1920px ">
+        <div style="height: 240px;width: 100% ">
             <div >
                  <div style="background-color: rgba(255,255,255,0.3);vertical-align:top;display: inline-block;display:inline-block;width: 800px;height: 220px;border-radius: 5px;">
                     <h1 style="margin-top:20px;font-size: 22px;width: 750px;color: #ffffff">Modern software developers spend more time maintaining and evolving existing software than writing new code.
@@ -36,7 +36,7 @@
 {#            注：inline要慎用！用就用#}
         </div>
 {#        第二行#}
-        <div style="height: 240px;width: 1920px ">
+        <div style="height: 240px;width: 100% ">
             <div >
                  <div style="background-color: rgba(255,255,255,0.3);vertical-align:top;display: inline-block;display:inline-block;width: 800px;height: 220px;border-radius: 5px;">
                     <h1 style="margin-top:20px;font-size: 22px;width: 750px;color: #ffffff">WE define readability as a human judgment of how easy a text is to understand. The readability of a program is related to its maintainability,
@@ -57,27 +57,27 @@
 
         <div style="background-color: #ffffff;height: 100px;" class="c-navigator--navigator2 " id="nav2" >
             <h1 style="color: #EF6172;font-size: 44px;text-align: center;padding-top: 20px ;filter:alpha(opacity=100);">
-                What is new???
+                What is new in this model?
             </h1>
         </div>
     </div>
 {#    三个属性#}
-    <div style="height: 600px;width: 1200px;padding-top: 30px">
-        <div style="height: 80px;width: 1000px;background-color: rgba(255,255,255,0.3);border-radius: 55px;padding-bottom: 20px;margin-top: 30px">
-            <h1 style="font-size: 65px;color: #ffffff">Using Xgboost</h1>
+    <div style="height: 400px;width: 80%;padding-top: 30px">
+        <div style="height: 50px;width: 80%;background-color: rgba(255,255,255,0.3);border-radius: 55px;padding-bottom: 20px;margin-top: 30px">
+            <h1 style="font-size: 45px;color: #ffffff">Using Xgboost</h1>
         </div>
-        <div style="height: 80px;width: 1000px;background-color: rgba(255,255,255,0.3);border-radius: 55px;padding-bottom: 20px;margin-top: 30px">
-           <h1 style="font-size: 65px;color: #ffffff">Less indictors</h1>
+        <div style="height: 50px;width:80%;background-color: rgba(255,255,255,0.3);border-radius: 55px;padding-bottom: 20px;margin-top: 30px">
+           <h1 style="font-size: 45px;color: #ffffff">Less indictors</h1>
         </div>
-        <div style="height: 80px;width: 1000px;background-color: rgba(255,255,255,0.3);border-radius: 55px;padding-bottom: 20px;margin-top: 30px">
-            <h1 style="font-size: 65px;color: #ffffff">Code Bad Smells</h1>
+        <div style="height: 50px;width: 80%;;background-color: rgba(255,255,255,0.3);border-radius: 55px;padding-bottom: 20px;margin-top: 30px">
+            <h1 style="font-size: 45px;color: #ffffff">Code Bad Smells</h1>
         </div>
     </div>
 {#    下面就是want to try 了#}
 
 
-        <div style="background-color: #ffffff;height: 100px;" class="c-navigator--navigator3 " id="nav2" >
-            <h1 style="font-size: 65px;color: #EF6172">WHAT TO TRY?</h1>
+        <div style="background-color: #ffffff;height: 100px;" class="c-navigator--navigator3 " id="nav2" align="center">
+            <h1 style="font-size: 45px;color: #EF6172;vertical-align: middle;padding-top: 10px">WHAT TO TRY?</h1>
         </div>
 
 {#    上传文件#}
@@ -104,12 +104,23 @@
         <h1 style="color: #EF6172;font-size: 26px;background: #ffffff;width: 900px;height:45px ;border-radius: 25px; align: center">Or you can enter your code below:</h1>
     </div>
     <form action="/text2" method="post" style="padding-top: 20px;">
-        <div><textarea id="text" name="text"  style="height: 300px;width: 900px;border-radius: 15px;font-size: 20px;margin-top: 20px"> </textarea></div>
+        <div><textarea id="text" name="text"  style="height: 500px;width: 900px;border-radius: 15px;font-size: 20px;margin-top: 20px"> </textarea></div>
         <div style="padding-top: 10px">
             <button type="submit" name="text" style="width: 200px;height: 60px;border-radius:20px;background: #ffffff;color:#EF6172;font-size: 30px;margin-top: 20px ">GO!</button>
         </div>
 
 </form>
+        <div align="center"style="padding-top: 70px;">
+            <h1 style="background-color :rgba(0,0,0,0.3);width: 40%;height: 50px;
+                                            align:center;border-radius: 20px 20px 0px 0px; font-size: 36px;color:#ffffff">TRY MORE</h1>
+        <h1 style="width: 300px;height: 2px;color: #ffffff;font-size: 0px">
+            0
+        </h1>
+    </div>
+    <div align="center"style="margin-bottom: 0px">
+            <h1 style="background-color :rgba(0,0,0,0.3);width: 100%;height: 100px;
+                                            padding-top: 30px; font-size: 20px;color:#ffffff">DESIGNED AND CODED BY WONIU</h1>
+    </div>
 
 </div>
 
@@ -179,7 +190,7 @@ $(function(){
                  "position":"absolute",
                  "top":"190px",
                      "background":"#ffffff",
-                     "width":"1920px",
+                     "width":"100%",
                      "align":"center"
 
                  });
@@ -221,7 +232,7 @@ $(function(){
                  "position":"absolute",
                  "top":"850px",
                      "background":"#ffffff",
-                     "width":"1920px",
+                     "width":"100%",
                      "align":"center"
 
                  });
@@ -237,7 +248,7 @@ $(function(){
     var isToTop = false;//设置一个标记，来记录导航栏是否位于顶部
     $(window).scroll(function(){
         var scrollTop = $(this).scrollTop();//获取滚动条
-         if(scrollTop>1500){//当滚动条的高度大于80px,并且导航栏不是位于顶部的时候，通过jq给header添加css样式使其固定定位到浏览器可视窗口的顶部
+         if(scrollTop>1300){//当滚动条的高度大于80px,并且导航栏不是位于顶部的时候，通过jq给header添加css样式使其固定定位到浏览器可视窗口的顶部
              $(".c-navigator--navigator3").css({
                  "position":"fixed",
                  "top":"0",
@@ -254,12 +265,12 @@ $(function(){
          }
 //当滚动条的高度小于80px,并且导航栏是位于顶部的时候，通过jq给header添加css样式使其回到原始的位置。
 {#        下面这个是，回滚到啥时候，可以放下去#}
-         if(scrollTop<1500){
+         if(scrollTop<1300){
                  $(".c-navigator--navigator3").css({
                  "position":"absolute",
-                 "top":"1510px",
+                 "top":"1310px",
 
-                     "width":"1920px",
+                     "width":"100%",
                      "align":"center"
 
                  });

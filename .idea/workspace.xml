@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5bfa1b2-e265-4733-a05c-13b24533d885" name="Default" comment="11.17">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/cacheFile.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculateCT2.py" afterPath="$PROJECT_DIR$/calculateCT2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show2.py" afterPath="$PROJECT_DIR$/show2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/readabilityResult.html" afterPath="$PROJECT_DIR$/templates/readabilityResult.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/uploadfileDeadibility.html" afterPath="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/show2$show2.coverage" NAME="show2 Coverage Results" MODIFIED="1574331477956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/show2$show2.coverage" NAME="show2 Coverage Results" MODIFIED="1574394325962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="show2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/show2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="1248">
               <caret line="68" column="72" lean-forward="false" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -31,12 +30,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculateCT2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calculateCT2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculateCT2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="145">
               <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadfileDeadibility.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/uploadfileDeadibility.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="62" selection-end-line="106" selection-end-column="62" />
+              <folding>
+                <element signature="e#285#476#0#HTML" expanded="true" />
+                <element signature="e#487#509#0#HTML" expanded="true" />
+                <element signature="e#539#584#0#HTML" expanded="true" />
+                <element signature="e#602#785#0#HTML" expanded="true" />
+                <element signature="e#831#879#0#HTML" expanded="true" />
+                <element signature="e#938#995#0#HTML" expanded="true" />
+                <element signature="e#1123#1157#0#HTML" expanded="true" />
+                <element signature="e#1188#1222#0#HTML" expanded="true" />
+                <element signature="e#1265#1421#0#HTML" expanded="true" />
+                <element signature="e#1447#1514#0#HTML" expanded="true" />
+                <element signature="e#1876#2065#0#HTML" expanded="true" />
+                <element signature="e#2123#2258#0#HTML" expanded="true" />
+                <element signature="e#2284#2339#0#HTML" expanded="true" />
+                <element signature="e#2383#2421#0#HTML" expanded="true" />
+                <element signature="e#2583#2617#0#HTML" expanded="true" />
+                <element signature="e#2660#2816#0#HTML" expanded="true" />
+                <element signature="e#2842#2909#0#HTML" expanded="true" />
+                <element signature="e#3164#3353#0#HTML" expanded="true" />
+                <element signature="e#3411#3546#0#HTML" expanded="true" />
+                <element signature="e#3572#3627#0#HTML" expanded="true" />
+                <element signature="e#3676#3714#0#HTML" expanded="true" />
+                <element signature="e#3930#3971#0#HTML" expanded="true" />
+                <element signature="e#4002#4050#0#HTML" expanded="true" />
+                <element signature="e#4112#4215#0#HTML" expanded="true" />
+                <element signature="e#4326#4376#0#HTML" expanded="true" />
+                <element signature="e#4391#4520#0#HTML" expanded="true" />
+                <element signature="e#4538#4576#0#HTML" expanded="true" />
+                <element signature="e#4624#4752#0#HTML" expanded="true" />
+                <element signature="e#4769#4807#0#HTML" expanded="true" />
+                <element signature="e#4856#4986#0#HTML" expanded="true" />
+                <element signature="e#5004#5042#0#HTML" expanded="true" />
+                <element signature="e#5131#5179#0#HTML" expanded="true" />
+                <element signature="e#5255#5334#0#HTML" expanded="true" />
+                <element signature="e#6489#6514#0#HTML" expanded="true" />
+                <element signature="e#6528#6647#0#HTML" expanded="true" />
+                <element signature="e#6738#6764#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readabilityResult.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/readabilityResult.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="142" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +120,7 @@
       <file leaf-file-name="calculateCT.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculateCT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
+            <state relative-caret-position="-12">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -54,9 +130,12 @@
       <file leaf-file-name="uploadfileCT.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3480">
-              <caret line="146" column="6" lean-forward="false" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="-79">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +217,6 @@
         <option value="$PROJECT_DIR$/templates/ctJudgePage.html" />
         <option value="$PROJECT_DIR$/templates/hello.html" />
         <option value="$PROJECT_DIR$/featureExtraction/mian.py" />
-        <option value="$PROJECT_DIR$/templates/readabilityResult.html" />
         <option value="$PROJECT_DIR$/readabilityJudge/reababilityJudge.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/templates/judgeChoose.html" />
@@ -148,7 +226,6 @@
         <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/templates/homepageAdaptative.html" />
         <option value="$PROJECT_DIR$/templates/uploadfile.html" />
-        <option value="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
         <option value="$PROJECT_DIR$/templates/personPage.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/index2.html" />
@@ -160,6 +237,8 @@
         <option value="$PROJECT_DIR$/templates/uploadfileCT.html" />
         <option value="$PROJECT_DIR$/show2.py" />
         <option value="$PROJECT_DIR$/calculateCT2.py" />
+        <option value="$PROJECT_DIR$/templates/readabilityResult.html" />
+        <option value="$PROJECT_DIR$/templates/uploadfileDeadibility.html" />
       </list>
     </option>
   </component>
@@ -207,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,12 +297,18 @@
             <path>
               <item name="show2" type="b2602c69:ProjectViewProjectNode" />
               <item name="show2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="show2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="show2" type="462c0819:PsiDirectoryNode" />
               <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,18 +406,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26368877" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26801154" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24290998" sideWeight="0.5057637" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23551172" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23551172" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -343,6 +428,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107275" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24290998" sideWeight="0.5057637" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23551172" sideWeight="0.49423632" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3403206" sideWeight="0.49711815" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26801154" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107275" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -362,14 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/adesigner.png" />
     <entry file="file://$PROJECT_DIR$/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -579,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/uploadfileDeadibility.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/featureExtraction/ParseCmdArgs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -607,25 +698,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upload/sample.py" />
-    <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="146" column="6" lean-forward="false" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculateCT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/show2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="1248">
           <caret line="68" column="72" lean-forward="false" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -635,9 +710,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculateCT2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="145">
           <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculateCT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/readabilityResult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="142" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploadfileCT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploadfileDeadibility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="62" selection-end-line="106" selection-end-column="62" />
+          <folding>
+            <element signature="e#285#476#0#HTML" expanded="true" />
+            <element signature="e#487#509#0#HTML" expanded="true" />
+            <element signature="e#539#584#0#HTML" expanded="true" />
+            <element signature="e#602#785#0#HTML" expanded="true" />
+            <element signature="e#831#879#0#HTML" expanded="true" />
+            <element signature="e#938#995#0#HTML" expanded="true" />
+            <element signature="e#1123#1157#0#HTML" expanded="true" />
+            <element signature="e#1188#1222#0#HTML" expanded="true" />
+            <element signature="e#1265#1421#0#HTML" expanded="true" />
+            <element signature="e#1447#1514#0#HTML" expanded="true" />
+            <element signature="e#1876#2065#0#HTML" expanded="true" />
+            <element signature="e#2123#2258#0#HTML" expanded="true" />
+            <element signature="e#2284#2339#0#HTML" expanded="true" />
+            <element signature="e#2383#2421#0#HTML" expanded="true" />
+            <element signature="e#2583#2617#0#HTML" expanded="true" />
+            <element signature="e#2660#2816#0#HTML" expanded="true" />
+            <element signature="e#2842#2909#0#HTML" expanded="true" />
+            <element signature="e#3164#3353#0#HTML" expanded="true" />
+            <element signature="e#3411#3546#0#HTML" expanded="true" />
+            <element signature="e#3572#3627#0#HTML" expanded="true" />
+            <element signature="e#3676#3714#0#HTML" expanded="true" />
+            <element signature="e#3930#3971#0#HTML" expanded="true" />
+            <element signature="e#4002#4050#0#HTML" expanded="true" />
+            <element signature="e#4112#4215#0#HTML" expanded="true" />
+            <element signature="e#4326#4376#0#HTML" expanded="true" />
+            <element signature="e#4391#4520#0#HTML" expanded="true" />
+            <element signature="e#4538#4576#0#HTML" expanded="true" />
+            <element signature="e#4624#4752#0#HTML" expanded="true" />
+            <element signature="e#4769#4807#0#HTML" expanded="true" />
+            <element signature="e#4856#4986#0#HTML" expanded="true" />
+            <element signature="e#5004#5042#0#HTML" expanded="true" />
+            <element signature="e#5131#5179#0#HTML" expanded="true" />
+            <element signature="e#5255#5334#0#HTML" expanded="true" />
+            <element signature="e#6489#6514#0#HTML" expanded="true" />
+            <element signature="e#6528#6647#0#HTML" expanded="true" />
+            <element signature="e#6738#6764#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
